@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-ellipse-0524"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_rgstorageellipse_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sqlpoolellipse.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sqldatabaseellipse"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Cloud"
+		},
+		"LS_rgstorageellipse_properties_typeProperties_url": {
+			"value": "https://rgstorageellipse.dfs.core.windows.net/"
+		}
+	}
+}
