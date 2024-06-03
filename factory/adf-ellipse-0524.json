@@ -1,0 +1,9 @@
+{
+	"name": "adf-ellipse-0524",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "69d90a11-0e04-41e8-96c4-e09c41564d1b",
+		"tenantId": "8435d1ba-cccb-4688-a86e-bdc5c90999e5"
+	}
+}
