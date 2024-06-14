@@ -2,7 +2,7 @@
 	"name": "trigger1",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -14,7 +14,7 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Day",
+				"frequency": "Month",
 				"interval": 1,
 				"startTime": "2024-06-14T17:25:00",
 				"timeZone": "W. Europe Standard Time",
@@ -24,6 +24,14 @@
 					],
 					"hours": [
 						19
+					],
+					"monthDays": [
+						21,
+						-1,
+						1,
+						17,
+						5,
+						7
 					]
 				}
 			}
